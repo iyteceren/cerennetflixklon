@@ -1,0 +1,180 @@
+
+.index {
+    background-color: black;
+    color: white;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.8) , rgba(0,0,0,.5)) , url("img/arkaplan.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.navbar .btn {
+    color: white;
+}
+.header-content {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.index-hr {
+    max-width: 100%;
+    border: none;
+    height: 10px;
+    background-color: gray;
+}
+img {
+    max-width: 100%;
+}
+.accordion-button {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    margin-top: 1rem;
+}
+.accordion-item {
+    border: none;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: rgb(43, 43, 43);
+    border-bottom: 1px solid black;
+}
+footer {
+    color: gray;
+}
+footer .btn {
+    color: gray;
+}
+/* ANA SAYFA CSS BURDA BİTMİŞTİR */
+.log {
+    color: white;
+}
+.login-bg {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.8) , rgba(0,0,0,.5)) , url("img/arkaplan.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login-content {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 10.7%;
+}
+.login-content .col-md-5 {
+    background-color: rgba(0, 0, 0, 0.589);
+    height: 70vh;
+}
+.login-form .btn {
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+.login-form .btn:active {
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+.login-form h5,p {
+    color: gray;
+}
+#exampleInputEmail1 {
+    height: 50px;
+}
+#exampleInputPassword1 {
+    height: 50px;
+}
+.form-check-input:checked {
+    background-color: gray;
+    border-color: gray;
+}
+/* LOGIN CSS BURDA BİTMİŞTİR */
+.browse {
+    background-color: rgba(15, 15, 15, 0.925);
+    width: 100%;
+    height: 100vh;
+}
+.browse-elements {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.browse-elements p {
+    font-size: 70px;
+    color: white;
+}
+.browse-elements .names {
+    font-size: 30px;
+}
+.manage-profile {
+    border: 1px solid gray;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    position: absolute;
+    left: 44.7%;
+    color: gray;
+}
+.browse-elements .manage-profile:hover {
+    border-color: white;
+    color: white;
+}
+/* BROWSE CSS BURDA BİTMİŞTİR */
+.browse-index-header {
+    background: linear-gradient(rgba(0,0,0,.8) , rgba(0,0,0,.5)) , url("img/arkaplan.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+}
+.nav-item .nav-link {
+    color: gray;
+}
+.nav-item .nav-link:hover {
+    transition: all .5s linear;
+    color: white;
+}
+.navbar-toggler {
+    background-color: gray;
+}
+.browse-index-sec1 {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .browse-index-sec1 .row .col-md h1 {
+    font-size: 80px;
+}
+.browse-index-sec1 .row .col-md h4 {
+    font-size: 40px;
+}
+.browse-index-sec1t .row .col-md p {
+    font-size: 20px;
+} */
+.browse-index-sec1 .row .col-md .btn {
+    background-color: gray;
+    color: white;
+}
+.sec1 img:hover {
+    transition: all .5s linear;
+}
+/* BROWSE-INDEX CSS BURDA BİTMİŞTİR */
+.account {
+    background-color: beige;
+}
+/* NETFLIX CSS TAMAMLANDI */
